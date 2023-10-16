@@ -1,7 +1,13 @@
+import Header from "./components/header";
+import Main from "./components/Main";
+import Fotter from "./components/footer";
+
 export default function App() {
     return (
-      <div>
-        <h1>Hello, World!</h1>
-      </div>
+        <div>
+            <Header />
+            <Main />
+            <Fotter />
+        </div>
     );
   }
